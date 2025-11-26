@@ -5,13 +5,11 @@
     font-family: Arial, sans-serif;
 }
 
-/* Fundo principal */
 body {
     background: linear-gradient(180deg, #bcd2df, #8bb1c7);
     height: 100vh;
 }
 
-/* Header */
 header {
     width: 100%;
     padding: 25px 40px;
@@ -34,7 +32,7 @@ header h1 {
     font-weight: bold;
 }
 
-.botoes-header .botao1 {
+.botoes .botao1 {
     background: #0c0f35;
     padding: 8px 18px;
     border-radius: 20px;
@@ -43,7 +41,7 @@ header h1 {
     margin-left: 10px;
 }
 
-.botoes-header .botao2 {
+.botoes .botao2 {
     background: #0c0f35;
     padding: 8px 18px;
     border-radius: 20px;
@@ -52,7 +50,6 @@ header h1 {
     margin-left: 10px;
 }
 
-/* Card central */
 .container {
     display: flex;
     justify-content: center;
@@ -65,7 +62,6 @@ header h1 {
     border-radius: 15px;
     background: linear-gradient(180deg, #b4e6ff, #262c5d);
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card h2 {
@@ -74,7 +70,6 @@ header h1 {
     font-size: 26px;
 }
 
-/* Formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -94,7 +89,6 @@ input {
     outline: none;
 }
 
-/* Botão criar */
 .criar {
     width: 160px;
     margin: 25px auto 0;
