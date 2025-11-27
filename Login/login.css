@@ -34,6 +34,12 @@ header h1 {
     letter-spacing: 1px;
 }
 
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .menu a {
     margin: 0 10px;
     color: red;
@@ -100,7 +106,7 @@ input {
     outline: none;
 }
 
-.criar {
+.entrar {
     width: 160px;
     margin: 25px auto 0;
     padding: 12px 0;
