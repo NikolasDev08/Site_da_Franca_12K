@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(180deg, #bcd2df, #8bb1c7);
+    height: 100vh;
+    font-size: 1.6rem;
+}
+
+header {
+    width: 100%;
+    padding: 25px 40px;
+    background: linear-gradient(90deg, #1c2c80, #1c5de6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+main {
+    height: calc(100svh - 8.2rem);
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.menu a {
+    margin: 0 10px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botoes .botao1 {
+    background: #0c0f35;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.botoes .botao2 {
+    background: #0c0f35;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
