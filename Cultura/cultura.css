@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GothamCondensed';
+    src: url('../fonts/gotham-condensed-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +12,10 @@
     font-family: Arial, sans-serif;
 }
 
-:root {
-    font-size: 62.5%;
-}
-
 body {
-    background: linear-gradient(180deg, #bcd2df, #8bb1c7);
-    height: 100vh;
-    font-size: 1.6rem;
+    margin: 0;
+    font: Gotham Condensed;
+    background-color: #ffffff;
 }
 
 header {
@@ -63,4 +66,143 @@ h1 a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold; 
+    font-style: italic;    
+    text-shadow:
+        0 10px 20px rgba(0, 0, 0, 0.30),
+        0 5px 10px rgba(0, 0, 0, 0.20);
+    font-family: 'GothamCondensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px;
+    
+}
+
+.titulo img {
+    width: 80px; 
+    height: auto;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+
+
+.titulo h1 {
+    font-size: 40px;
+}
+.subtexto {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto 40px auto;
+    font-size: 18px;
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+.card {
+    width: 30%;
+    min-width: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 76px;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+
+.footer {
+    background-color: #0c0f35;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+    font-family: 'GothamCondensed', sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 30%;
+    min-width: 260px;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-col p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #dcdcdc;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #dcdcdc;
+}
+
+.footer-col ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #1c5de6;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #1c2c80;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bfbfbf;
 }
